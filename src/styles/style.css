@@ -106,3 +106,21 @@ h3 {
   color: white;
   font-weight: 700;
 }
+
+.video {
+  text-align: center;
+} 
+
+.video-h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.video span {
+  color: var(--basic);
+}
+.video-link{
+  margin-top: 100px;
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
