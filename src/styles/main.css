@@ -1,3 +1,6 @@
+.header {
+  height: 920px;
+}
 
 .header__title-accent {
   color: var(--color-primary);
