@@ -23,7 +23,7 @@
 }
 
 .header__text-right p:nth-of-type(2) {
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .header__text-left,
@@ -37,7 +37,7 @@
   background-color: var(--color-primary);
   padding: 12px 24px;
   font-weight: bold;
-  margin-top: 50px;
+  margin-top: 40px;
   color: var(--color-white);
 }
 
