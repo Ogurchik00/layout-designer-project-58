@@ -1,6 +1,5 @@
 .header {
   height: 914px;
-
 }
 
 .header__title-accent {
@@ -128,14 +127,14 @@
 .navigation__link-number {
   margin-bottom: 40px;
   font-size: 64px;
-  font-family: 'Neucha';
+  font-family: Neucha, cursive;
   line-height: 1;
 }
 
 .navigation__link-title {
   color: var(--color-primary);
   font-size: 34px;
-  font-family: 'Neucha';
+  font-family: Neucha, cursive;
   line-height: 1.2;
   margin-bottom: 16px;
 }
@@ -144,14 +143,13 @@
   line-height: 160%;
 }
 
-
 .ikea__preview {
   display: flex;
-  font-family: 'Neucha';
+  font-family: Neucha, cursive;
   line-height: 40.8px;
 }
 
-.ikea__preview-img{
+.ikea__preview-img {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
@@ -173,8 +171,8 @@
 .ikea__symptoms-title {
   padding: 5px 11px;
   font-size: 14px;
-  font-family: 'Open Sans';
-  margin: 100px 0 20px 0;
+  font-family: "Open Sans", sans-serif;
+  margin: 100px 0 20px;
   color: var(--color-white);
   background-color: var(--color-brown);
 }
@@ -187,10 +185,9 @@
   flex: 1;
 }
 
-.ikea__symptoms-text p:last-child{
+.ikea__symptoms-text p:last-child {
   margin-left: 30px;
 }
-
 
 #premature-optimization {
   background-color: var(--color-brown);
@@ -199,11 +196,11 @@
 
 .optimization__preview {
   display: flex;
-  font-family: 'Neucha';
+  font-family: Neucha, cursive;
   line-height: 40.8px;
 }
 
-.optimization__preview-img{
+.optimization__preview-img {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
@@ -225,8 +222,8 @@
 .optimization__symptoms-title {
   padding: 5px 11px;
   font-size: 14px;
-  font-family: 'Open Sans';
-  margin: 100px 0 20px 0;
+  font-family: "Open Sans", sans-serif;
+  margin: 100px 0 20px;
   color: var(--color-brown);
   background-color: var(--color-white);
 }
@@ -239,19 +236,17 @@
   flex: 1;
 }
 
-.optimization__symptoms-text p:last-child{
+.optimization__symptoms-text p:last-child {
   margin-left: 30px;
 }
 
-
-
 .novelty__preview {
   display: flex;
-  font-family: 'Neucha';
+  font-family: Neucha, cursive;
   line-height: 40.8px;
 }
 
-.novelty__preview-img{
+.novelty__preview-img {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
@@ -273,8 +268,8 @@
 .novelty__symptoms-title {
   padding: 5px 11px;
   font-size: 14px;
-  font-family: 'Open Sans';
-  margin: 100px 0 20px 0;
+  font-family: "Open Sans", sans-serif;
+  margin: 100px 0 20px;
   color: var(--color-white);
   background-color: var(--color-brown);
 }
@@ -287,11 +282,9 @@
   flex: 1;
 }
 
-.novelty__symptoms-text p:last-child{
+.novelty__symptoms-text p:last-child {
   margin-left: 30px;
 }
-
-
 
 #hyperbolic-depreciation {
   background-color: var(--color-brown);
@@ -300,11 +293,11 @@
 
 .depreciation__preview {
   display: flex;
-  font-family: 'Neucha';
+  font-family: Neucha, cursive;
   line-height: 40.8px;
 }
 
-.depreciation__preview-img{
+.depreciation__preview-img {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
@@ -326,8 +319,8 @@
 .depreciation__symptoms-title {
   padding: 5px 11px;
   font-size: 14px;
-  font-family: 'Open Sans';
-  margin: 100px 0 20px 0;
+  font-family: "Open Sans", sans-serif;
+  margin: 100px 0 20px;
   color: var(--color-brown);
   background-color: var(--color-white);
 }
@@ -340,18 +333,17 @@
   flex: 1;
 }
 
-.depreciation__symptoms-text p:last-child{
+.depreciation__symptoms-text p:last-child {
   margin-left: 30px;
 }
 
-
 .planning__preview {
   display: flex;
-  font-family: 'Neucha';
+  font-family: Neucha, cursive;
   line-height: 40.8px;
 }
 
-.planning__preview-img{
+.planning__preview-img {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
@@ -373,8 +365,8 @@
 .planning__symptoms-title {
   padding: 5px 11px;
   font-size: 14px;
-  font-family: 'Open Sans';
-  margin: 100px 0 20px 0;
+  font-family: "Open Sans", sans-serif;
+  margin: 100px 0 20px;
   color: var(--color-white);
   background-color: var(--color-brown);
 }
@@ -387,7 +379,7 @@
   flex: 1;
 }
 
-.planning__symptoms-text p:last-child{
+.planning__symptoms-text p:last-child {
   margin-left: 30px;
 }
 
@@ -395,7 +387,6 @@
   margin-top: 15px;
   display: inline-block;
 }
-
 
 .footer {
   height: 581px;
@@ -446,7 +437,7 @@
   top: 39px;
 }
 
-.footer__form-button img{
+.footer__form-button img {
   width: 24px;
   height: 24px;
 }
@@ -454,7 +445,6 @@
 .footer__form-signature {
   font-size: 12px;
 }
-
 
 .footer__form-link {
   text-decoration: underline;
