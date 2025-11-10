@@ -52,6 +52,13 @@
   z-index: 1;
 }
 
+#preview-image::after {
+  content: "";
+  display: block;
+  height: 197px;
+  visibility: hidden;
+}
+
 #preview-image::before {
   content: none;
 }
